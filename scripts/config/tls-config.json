@@ -2,11 +2,11 @@
   "pub_key_path": "kube-tls/kube-tls.pub",
   "priv_key_size": 4096,
   "priv_key_path": "kube-tls/kube-tls.pem",
-  "priv_key_pass": "pds9Rbng*?QdD@M2?9&-TMQS&n+2XDuJ",
+  "priv_key_pass": "changeme",
   "country_name": "GB",
   "state_province_name": "England",
   "locality_name": "London",
-  "email_address": "gary-stewart@outlook.com",
+  "email_address": "example-email@outlook.com",
   "organisation_name": "Synaptik Ltd.",
   "common_name": "synaptik-devops.london",
   "dns_names": [
