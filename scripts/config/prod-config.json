@@ -1,0 +1,7 @@
+{
+  "cpus": 4,
+  "driver": "podman",
+  "memory": "7096",
+  "kubernetes-version": "v1.21.0",
+  "container-runtime": "crio"
+}

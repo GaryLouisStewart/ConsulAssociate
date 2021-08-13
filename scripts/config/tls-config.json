@@ -1,0 +1,20 @@
+{
+  "pub_key_path": "kube-tls/kube-tls.pub",
+  "priv_key_size": 4096,
+  "priv_key_path": "kube-tls/kube-tls.pem",
+  "priv_key_pass": "pds9Rbng*?QdD@M2?9&-TMQS&n+2XDuJ",
+  "country_name": "GB",
+  "state_province_name": "England",
+  "locality_name": "London",
+  "email_address": "gary-stewart@outlook.com",
+  "organisation_name": "Synaptik Ltd.",
+  "common_name": "synaptik-devops.london",
+  "dns_names": [
+    "kubernetes-dev.synaptik-devops.london",
+    "kube-prod.synaptik-devops.london",
+    "consul-dev.synaptik-devops.london"
+  ],
+  "csr_file_path": "kube-tls/kube-csr.pem",
+  "certificate_file_path": "kube-tls/kube-cert.pem",
+  "certificate_validity_period": 30
+}

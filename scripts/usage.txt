@@ -1,0 +1,13 @@
+The following script minikube.sh works by allowing you to set your configuration options before spawning a kubernetes cluster.
+
+options include:
+
+- config, allows us to setup popular minikube configuration items listed here: https://minikube.sigs.k8s.io/docs/commands/config/
+- view, allows us to view the config.json file that is located at $HOME/.minikube/config/config.json
+- run, runs the minikube cluster.
+    - nodes <N> allows you to start minikube with multiple nodes overriding the default value of 2, a master + control plane node and a worker node.
+- start, starts the cluster, for example run ./minikube.sh start <MINIKUBE_CLUSTER_NAME> to start a previously stopped minikube cluster.
+- list-clusters, lists the available minikube clusters or Profiles.
+- stop, stops the minikube cluster for example run ./minikube.sh stop <CLUSTER_NAME> to stop a previously started minikube cluster
+
+if no options are passed to the script than this document is show.
