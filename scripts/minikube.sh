@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # spawns minikube optionally with Podman on Ubuntu 20.04 and above.
 
-USAGE="$(cat usage.txt)"
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd)"
+USAGE="$(cat $DIR/usage.txt)"
 DEFAULT_NODE_AMOUNT=2
 
 if [ "$#" == "0" ]; then
